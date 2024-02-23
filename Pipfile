@@ -4,11 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-rasa = "*"
+rasa = "3.6.16"
 prompt-toolkit = "*"
 flask = "*"
 requests = "*"
 jsonify = "*"
+gunicorn = "*"
 
 [dev-packages]
 
